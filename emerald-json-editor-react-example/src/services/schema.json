@@ -1,0 +1,26 @@
+{
+  "title": "Example editor",
+  "description": "Form example using json schema.",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "Name"
+    },
+    "age": {
+      "type": "number",
+      "title": "Age"
+    },
+    "Avatar": {
+      "type": "string",
+      "format": "url",
+      "x-python-type": "pydantic_core._pydantic_core.Url"
+    },
+    "newsletterSubscription": {
+      "type": "boolean",
+      "title": "Subscribe to Newsletter",
+      "description": "Would you like to subscribe to our newsletter and receive updates?"
+    }
+  },
+  "required": ["name", "age", "Avatar", "newsletterSubscription"]
+}
