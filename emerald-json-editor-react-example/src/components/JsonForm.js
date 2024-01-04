@@ -5,7 +5,7 @@ import { importFile } from "../services/importFile";
 
 const JsonForm = ({ data, setData }) => {
   const handleFormSubmit = () => {
-    console.log("Function to handle form submit");
+    alert("Function to handle the form submit :-)");
   };
 
   return (
