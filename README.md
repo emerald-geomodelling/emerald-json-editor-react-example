@@ -20,7 +20,7 @@ To start in browser, usually on port 3000:
 
 ### /components
 
-- [JsonForm.js](src/components/JsonForm.js) component that imports the JsonEditorWrapper from emerald-json-editor-react. Takes schema, data, setData, and importFile as props.
+- [JsonForm](src/components/JsonForm.js) component that imports the JsonEditorWrapper from emerald-json-editor-react. Takes schema, data, setData, and importFile as props.
 
 ### /services
 
