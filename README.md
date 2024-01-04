@@ -6,15 +6,21 @@ Example project showcasing how to use [emerald-json-editor-react](https://www.np
 
 Clone repo, then:
 
-#### `cd emerald-json-editor-react-example/`
+```
+cd emerald-json-editor-react-example/
+```
 
 Install:
 
-#### `npm install`
+```
+npm install
+```
 
 To start in browser, usually on port 3000:
 
-#### `npm start`
+```
+npm start
+```
 
 ## Guide
 
