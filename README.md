@@ -4,12 +4,6 @@ Example project showcasing how to use [emerald-json-editor-react](https://www.np
 
 ## Setup
 
-Clone repo, then:
-
-```
-cd emerald-json-editor-react-example/
-```
-
 Install:
 
 ```

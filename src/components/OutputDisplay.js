@@ -14,6 +14,9 @@ const OutputDisplay = ({ data }) => {
           Age: <span className="text-gray-200">{data?.age}</span>
         </li>
         <li className="text-emerald-300">
+          Avatar: <span className="text-gray-200">{data?.Avatar}</span>
+        </li>
+        <li className="text-emerald-300">
           Subscribe:{" "}
           <span
             className={

@@ -15,6 +15,8 @@ export const importFile = async (file) => {
     return await response.json();
   } catch (error) {
     console.error("There was a problem with the fetch operation: ", error);
+    // If we actually had a real server api and the above POST ever succeeded, we'd obviously not have stuff like this here :)
+    return {data:{file:'http://example.com/fake.jpg'}};
     throw error;
   }
 };
