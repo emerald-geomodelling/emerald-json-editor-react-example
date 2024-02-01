@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Schema from "./components/Schema";
 import JsonForm from "./components/JsonForm";
 import OutputDisplay from "./components/OutputDisplay";
 
@@ -24,6 +25,7 @@ function Page() {
         </a>
       </header>
       <main className="flex flex-wrap gap-10 mt-8 p-5">
+        <Schema />
         <JsonForm data={data} setData={setData} />
         <OutputDisplay data={data} />
       </main>

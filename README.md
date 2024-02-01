@@ -2,6 +2,8 @@
 
 Example project showcasing how to use [emerald-json-editor-react](https://www.npmjs.com/package/emerald-json-editor-react) npm package.
 
+![Screenshot](screenshot.png)
+
 ## Setup
 
 Install:
